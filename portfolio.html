@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kgatle Kgaugelo | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", Arial, sans-serif;
+      background-color: #0b0c10;
+      color: #c5c6c7;
+      line-height: 1.6;
+    }
+    a { color: #66fcf1; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+    header { text-align: center; padding: 70px 20px 50px; }
+    header h1 { margin: 0; font-size: 3em; color: #66fcf1; }
+    header p { font-size: 1.2em; color: #aaa; }
+    .download-btn {
+      display: inline-block; margin-top: 25px; padding: 12px 24px;
+      background-color: #45a29e; color: #0b0c10; font-weight: bold;
+      border-radius: 6px; transition: 0.3s;
+    }
+    .download-btn:hover { background-color: #66fcf1; }
+    section { margin-top: 60px; }
+    section h2 {
+      border-left: 5px solid #45a29e; padding-left: 10px;
+      color: #66fcf1; font-size: 1.8em;
+    }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    .two-col { display: flex; flex-wrap: wrap; }
+    .two-col > div { flex: 1; min-width: 280px; padding: 10px; }
+
+    /* Project Cards */
+    .projects-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px; margin-top: 20px;
+    }
+    .project-card {
+      background: #1f2833; padding: 20px; border-radius: 10px;
+      box-shadow: 0 0 10px rgba(102, 252, 241, 0.2);
+      transition: transform 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(102, 252, 241, 0.4);
+    }
+    .project-card h3 { color: #66fcf1; margin-bottom: 10px; }
+    .group-tag {
+      display: inline-block; font-size: 0.8em;
+      background-color: #45a29e; color: #0b0c10;
+      padding: 3px 8px; border-radius: 4px; margin-left: 5px;
+    }
+    .view-all { text-align: center; margin-top: 40px; }
+    .view-all a {
+      display: inline-block; padding: 12px 24px;
+      background-color: #45a29e; color: #0b0c10;
+      border-radius: 6px; font-weight: bold;
+    }
+    .view-all a:hover { background-color: #66fcf1; }
+    footer {
+      margin: 70px 0 20px; text-align: center;
+      color: #777; font-size: 0.9em;
+    }
+    .current-role { color: #66fcf1; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Kgatle Kgaugelo</h1>
+      <p>Computer Science Student | Aspiring Developer & Tech Innovator</p>
+      <a class="download-btn" href="Kgatle_Kgaugelo_CV.pdf" target="_blank">Download CV (PDF)</a>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a motivated and detail-oriented third-year Computer Science student at Tshwane University of Technology.
+        Passionate about technology, teaching, and coding, I enjoy solving real-world problems through innovative software solutions.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="two-col">
+        <div>
+          <h3 class="current-role">🟢 Tshwane University of Technology — Lab Tutor & Assistant Technician (Contract)</h3>
+          <p><em>August 2025 – November 2025</em></p>
+          <ul>
+            <li>Currently working at the <strong>Refurbishment Office</strong> on a 3-month contract.</li>
+            <li>Provide technical support, set up, and maintain lab equipment and systems.</li>
+            <li>Assist students and staff with software troubleshooting and installations.</li>
+            <li>Ensure efficient operation of lab devices and manage technical documentation.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Tshwane University of Technology — Lab Tutor (Volunteer)</h3>
+          <p><em>March 2025 – June 2025</em></p>
+          <ul>
+            <li>Assisted students in understanding lab exercises and debugging code.</li>
+            <li>Supported lecturers with lab management and academic guidance.</li>
+            <li>Reinforced theoretical concepts with practical application.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Precisional Growth — Career Exploration & Job Shadowing (Volunteer)</h3>
+          <p><em>March 2024</em></p>
+          <ul>
+            <li>Participated in professional job shadowing aligned with IT career goals.</li>
+            <li>Gained exposure to real-world technology practices and development advice.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="two-col">
+        <div>
+          <h3>Tshwane University of Technology (TUT)</h3>
+          <p><em>2023 – Present</em></p>
+          <p>Diploma in Computer Science (Extended Programme)</p>
+        </div>
+        <div>
+          <h3>Mohlatlego Machaba Secondary School</h3>
+          <p><em>Graduated: November 2021</em></p>
+          <p>Majored in Physical Science, Mathematics, Life Science, and Geography</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2>Certificates & Workshops</h2>
+      <ul>
+        <li>Microsoft 101 Certificate – Nemisa</li>
+        <li>Digital Literacy Certificate – Nemisa</li>
+        <li>Digital Literacy Certificate – C-Delta</li>
+        <li>Introduction to Coding – SheCodes</li>
+        <li>Web Development Certificate – SheCodes</li>
+        <li>🏆 <span style="color:#66fcf1;">Geekulcha Annual Hackathon (2025) – Top 10 Retained & Attendance</span></li>
+        <li>Telkom Hackathon (Attendance)</li>
+        <li>GitHub Constellation (Attendance)</li>
+        <li>Microsoft Workshop – Morse Innovation Centre (Attendance)</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="two-col">
+        <div>
+          <h4>Technical Skills</h4>
+          <ul>
+            <li>HTML, CSS, JavaScript, Java</li>
+            <li>Git & GitHub</li>
+            <li>Microsoft Office & Digital Tools</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Key Skills</h4>
+          <ul>
+            <li>Strong Communication</li>
+            <li>Critical Thinking</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Team Collaboration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>🌦 Weather App</h3>
+          <p>Displays real-time weather updates using web APIs and dynamic UI elements.</p>
+          <a href="https://github.com/KgaugeloKgatle/Weather-Kgaugelo" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <h3>🏫 Tertiary Application App <span class="group-tag">Group Project</span></h3>
+          <p>Helps learners apply to tertiary institutions more efficiently using a user-friendly interface.</p>
+          <a href="https://github.com/KgaugeloKgatle/GIRLCODE" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <h3>👩‍🏫 Basic Education Teacher App <span class="group-tag">Group Project</span></h3>
+          <p>Assists teachers with lesson planning, student navigation, and classroom management.</p>
+          <a href="https://github.com/KgaugeloKgatle/Kgaugelo-Basic-Education-Teacher-App" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <h3>♿ EduVisor – Disability App <span class="group-tag">Group Project</span></h3>
+          <p>Supports students with disabilities through educational accessibility and study tools.</p>
+          <a href="https://github.com/KgaugeloKgatle/Eduvisor" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="view-all">
+        <a href="https://github.com/KgaugeloKgatle" target="_blank">View All Projects on GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:makhobanekgaugelo@gmail.com">makhobanekgaugelo@gmail.com</a></p>
+    </section>
+
+    <footer>
+      © 2025 Kgatle Kgaugelo • <a href="https://github.com/KgaugeloKgatle" target="_blank">GitHub Profile</a>
+    </footer>
+  </div>
+</body>
+</html>
+
+  
